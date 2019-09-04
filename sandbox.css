@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+div{
+    height: 300px;
+    width: 450px;
+    border: dashed black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    background: orange;
+    border: none
+}
+.button{
+    border: none;
+    height: 90px;
+    width: 150px;
+    background: black;
+    color: white;
+}
